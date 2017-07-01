@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "kademlia-rewrite",
+  "name": "kademlia-dht",
   "version": "0.0.1",
   "description": "A Kademlia DHT implementation in JS/ES6",
   "repository": "https://github.com/atanasbozhkov/Kademlia-DHT-JS",

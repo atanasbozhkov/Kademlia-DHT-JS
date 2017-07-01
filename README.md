@@ -1,22 +1,25 @@
-# [kademlia-rewrite](https://github.com//kademlia-rewrite)
+# [kademlia-dht](https://github.com//kademlia-dht)
 
-[![NPM version](http://img.shields.io/npm/v/kademlia-rewrite.svg?style=flat-square)](https://www.npmjs.com/package/kademlia-rewrite)
-[![NPM downloads](http://img.shields.io/npm/dm/kademlia-rewrite.svg?style=flat-square)](https://www.npmjs.com/package/kademlia-rewrite)
-[![Build Status](http://img.shields.io/travis//kademlia-rewrite/master.svg?style=flat-square)](https://travis-ci.org//kademlia-rewrite)
-[![Coverage Status](https://img.shields.io/coveralls//kademlia-rewrite.svg?style=flat-square)](https://coveralls.io//kademlia-rewrite)
-[![Dependency Status](http://img.shields.io/david//kademlia-rewrite.svg?style=flat-square)](https://david-dm.org//kademlia-rewrite)
+[![NPM version](http://img.shields.io/npm/v/kademlia-dht.svg?style=flat-square)](https://www.npmjs.com/package/kademlia-dht)
+[![NPM downloads](http://img.shields.io/npm/dm/kademlia-dht.svg?style=flat-square)](https://www.npmjs.com/package/kademlia-dht)
+[![Build Status](http://img.shields.io/travis//kademlia-dht/master.svg?style=flat-square)](https://travis-ci.org//kademlia-dht)
+[![Coverage Status](https://img.shields.io/coveralls//kademlia-dht.svg?style=flat-square)](https://coveralls.io//kademlia-dht)
+[![Dependency Status](http://img.shields.io/david//kademlia-dht.svg?style=flat-square)](https://david-dm.org//kademlia-dht)
 
 > 
 
 ### How to Install
 
 ```sh
-$ npm install kademlia-rewrite
+$ npm install kademlia-dht
 ```
 
 ### Getting Started
 
-...
+Kademlia has two main concepts:
+ - `KademliaNode` - has an id and constructors for creating a random nodes and nodes with predefined ids. 
+ - `KademliaRoutingTable` - after being initialised the Routing table can be updated with KademliaNodes which will then 
+ be allocated in buckets. Node lookups are supported via the `findClosest` method.
 
 ### How to Test
 
@@ -27,13 +30,6 @@ $ npm run lint          # Lint the source code with ESLint
 $ npm test              # Run unit tests with Mocha
 $ npm run test:watch    # Run unit tests with Mocha, and watch files for changes
 $ npm run test:cover    # Run unit tests with code coverage by Istanbul
-```
-
-To launch the documentation site, run:
-
-```sh
-$ npm install -g easystatic
-$ npm start
 ```
 
 ### License
