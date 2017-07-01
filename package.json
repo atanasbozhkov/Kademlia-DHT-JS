@@ -1,6 +1,6 @@
 {
-  "private": true,
-  "name": "kademlia-dht",
+  "private": false,
+  "name": "kademlia-dht-js",
   "version": "0.0.1",
   "description": "A Kademlia DHT implementation in JS/ES6",
   "repository": "https://github.com/atanasbozhkov/Kademlia-DHT-JS",

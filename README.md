@@ -1,17 +1,17 @@
-# [kademlia-dht](https://github.com//kademlia-dht)
+# [kademlia-dht-js](https://github.com//kademlia-dht-js)
 
-[![NPM version](http://img.shields.io/npm/v/kademlia-dht.svg?style=flat-square)](https://www.npmjs.com/package/kademlia-dht)
-[![NPM downloads](http://img.shields.io/npm/dm/kademlia-dht.svg?style=flat-square)](https://www.npmjs.com/package/kademlia-dht)
-[![Build Status](http://img.shields.io/travis//kademlia-dht/master.svg?style=flat-square)](https://travis-ci.org//kademlia-dht)
-[![Coverage Status](https://img.shields.io/coveralls//kademlia-dht.svg?style=flat-square)](https://coveralls.io//kademlia-dht)
-[![Dependency Status](http://img.shields.io/david//kademlia-dht.svg?style=flat-square)](https://david-dm.org//kademlia-dht)
+[![NPM version](http://img.shields.io/npm/v/kademlia-dht-js.svg?style=flat-square)](https://www.npmjs.com/package/kademlia-dht-js)
+[![NPM downloads](http://img.shields.io/npm/dm/kademlia-dht-js.svg?style=flat-square)](https://www.npmjs.com/package/kademlia-dht-js)
+[![Build Status](http://img.shields.io/travis//kademlia-dht-js/master.svg?style=flat-square)](https://travis-ci.org//kademlia-dht-js)
+[![Coverage Status](https://img.shields.io/coveralls//kademlia-dht-js.svg?style=flat-square)](https://coveralls.io//kademlia-dht-js)
+[![Dependency Status](http://img.shields.io/david//kademlia-dht-js.svg?style=flat-square)](https://david-dm.org//kademlia-dht-js)
 
 > 
 
 ### How to Install
 
 ```sh
-$ npm install kademlia-dht
+$ npm install kademlia-dht-js
 ```
 
 ### Getting Started
